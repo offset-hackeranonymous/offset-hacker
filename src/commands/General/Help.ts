@@ -35,7 +35,7 @@ export default class Command extends BaseCommand {
                     categories[info.config.category].push(info)
                 }
             }
-            let text = `👋🏻 (🌺ω🌺) Hi there! *${M.sender.username}*, I'★∅ffs€t★ hacker.\n\nMy prefix is - "#"\n\nThe usable commands are listed below.\n\n`
+            let text = `👋🏻 (🌺ω🌺) Hi there! *${M.sender.username}*, I'm ★∅ffs€t★ hacker.\n\nMy prefix is - "#"\n\nThe usable commands are listed below.\n\n`
             const keys = Object.keys(categories)
             for (const key of keys)
                 text += `${this.emojis[keys.indexOf(key)]} *${this.client.util.capitalize(key)}*\n❐ \`\`\`${categories[
